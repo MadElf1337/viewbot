@@ -12,7 +12,7 @@ link = 'https://youtu.be/' + ID
 
 views = int(input("Enter number of views needed"))
 
-driver = webdriver.Chrome(executable_path="D:\\Projects\\Python\\viewbot\\ENV\\Lib\\chromedriver.exe")
+driver = webdriver.Chrome(executable_path="D:\\Projects\\Python\\viewbot\\ENV\\Lib\\chromedriver.exe") #path to the webdriver
 driver.get(link)
 
 for i in range(views):
