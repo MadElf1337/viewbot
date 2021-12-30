@@ -7,5 +7,5 @@ The repository contains the application code for generation of views on any micr
 To run the program, simply do:
 
 ```
-python3 gui.py 
+python3 quorabot.py 
 ```
