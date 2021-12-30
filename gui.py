@@ -19,11 +19,11 @@ def run():
     views_var.set("")
     Timer = 30
 
-    link = 'https://www.youtube.com/watch?v=' + id
+    link = 'https://quora.com/' + id        #ID is the question/answer for which views are to be generated
 
     # print(link)
 
-    driver = webdriver.Chrome("D:\\Projects\\Python\\viewbot\\ENV\\Lib\\chromedriver.exe")
+    driver = webdriver.Chrome(" ") #Link to WebDriver here
     driver.get(link)
 
     for i in range(views):
